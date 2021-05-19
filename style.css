@@ -68,3 +68,87 @@ body {
 
     
 }
+/*intro
+//////////////////////////*/
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+    background: url("img/intro.jpg")center;
+    background-repeat: no-repeat;
+    
+}
+.intro_title{
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #e7cece;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    
+}
+.intro_iner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Intro_subtitle{
+    margin-bottom: 60px;
+    font-size: 22px;
+    color:#e7cece;
+    line-height: 1.5;
+    font-weight: 400;
+    
+   
+}
+
+.portner_iner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.port_title{
+    font-size: 25px;
+    
+    color:#000;
+    margin: 25px 0;
+}
+/*кнорки 
+//////////////////////////*/
+
+
+
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 2px;
+    
+    color:#000;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear;
+    
+    
+}
+.btn--red{
+    background-color:#fff;
+}
+
+
+
+.btn--red:hover{
+    background-color:#A9A9A9;
+    
+}
